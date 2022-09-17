@@ -1,0 +1,2 @@
+2022-09-16 03:04:51,212 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [Groceries] ADD CONSTRAINT [FK_Groceries_GroceryStatus_StatusId] FOREIGN KEY ([StatusId]) REFERENCES [GroceryStatus] ([Id]) ON DELETE CASCADE;
